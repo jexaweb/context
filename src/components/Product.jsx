@@ -6,7 +6,7 @@ function Product({ product }) {
   const { dispatch, cart } = useGlobalContext();
   const itemIncart = cart.find((item) => item.id === product.id);
   return (
-    <div className=" mb-10 mt-10 bg-blue-500 hover:shadow-xl/30 pt-8 pb-8 pr-10 flex ">
+    <div className=" mb-10 mt-10 bg-blue-500 hover:shadow-xl/30 pt-8 pb-8 pr-10 flex  rounded-lg ">
       <img
         src={product.thumbnail}
         alt={product.title}
