@@ -1,7 +1,7 @@
 import React from "react";
 import Product from "./Product";
 
-import { useGlobalContext } from "../hooks/useGlobalcontext.jsx";
+import { useGlobalContext } from "../hooks/useGlobalcontext";
 
 function Productlist({ products }) {
   const { totalPrice, dispatch } = useGlobalContext();

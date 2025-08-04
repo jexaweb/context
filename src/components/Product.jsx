@@ -1,6 +1,6 @@
 import { MdShoppingBasket } from "react-icons/md";
 
-import { useGlobalContext } from "../hooks/useGlobalcontext.jsx";
+import { useGlobalContext } from "../hooks/useGlobalcontext";
 
 function Product({ product }) {
   const { dispatch, cart } = useGlobalContext();
