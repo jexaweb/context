@@ -4,7 +4,7 @@ import Hoom from "../pages/Hoom";
 import Contact from "../pages/Contact";
 import { FaShapes, FaShoppingBag, FaShoppingCart } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
-import { useGlobalContext } from "../hooks/useGlobalcontext.jsx";
+import { useGlobalContext } from "../hooks/useGlobalcontext";
 
 function Navbar() {
   const { totalAmount, cart, dispatch } = useGlobalContext();
